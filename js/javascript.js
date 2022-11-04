@@ -5,7 +5,8 @@ var linetwo = ".";
 var linethree = ".";
 var linefour = ".";
 var linefive = ".";
-
+var buttonid = "null";
+var buttonid2 = "null2";
 
 $("#button1").click(function() {
     movelines();
@@ -52,5 +53,17 @@ function movelines() {
 }
 
 
+$("button").click(function() {
+    var buttonid2 = this;
+    var buttonid = "'." + $(this).attr('id') + "'";
+    dothing();
+    // $(buttonid) 
+});
 
+function dothing() {
+    buttonid = $(buttonid).attr('id');
+    string = buttonid2;
+    movelines();
+    updateMessageDisplay();
+}
 
