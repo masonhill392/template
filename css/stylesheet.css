@@ -1,0 +1,39 @@
+html {
+    padding: 15px;
+    background-color: burlywood;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+body {
+    background-color: rgb(241, 241, 241);
+    border-radius: 25px;
+    padding: 15px;
+}
+.margin {
+    margin: 15px;
+}
+.text-align-center {
+    text-align: center;
+}
+.text-header-indent {
+    text-align: left;
+    padding-left: 45px;
+}
+.indent {
+    padding-left: 15px;
+}
+.section {
+    background-color: white;
+    border-radius: 25px;
+    padding: 10px;
+}
+.box {
+    width: 50%;
+    color:white;
+    background-color: rgb(31, 31, 31);
+    padding: 15px;
+    height: 100%;
+    border-radius: 10px;
+    font-size: 75%;
+
+
+}
